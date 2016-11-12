@@ -1,0 +1,9 @@
+0 19 * * *  /home/rosa/monitor off
+0 7 * * 1-6 /home/rosa/monitor on
+
+@hourly /home/rosa/test_working
+@daily /usr/bin/autotrash -d 1
+@daily echo " REPAIR TABLE Events;" | mysql --user=root --password=rosa10 zm
+
+@daily /home/rosa/razredi.sh 
+

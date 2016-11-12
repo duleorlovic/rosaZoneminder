@@ -1,0 +1,2 @@
+if [ 0 -eq `pgrep -c xlib` ]; then smssend.php dule "ne radi xlib";echo `date`;else echo -n ".";fi >> test_working.log
+

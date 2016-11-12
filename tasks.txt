@@ -1,0 +1,13 @@
+proveriti datume direktorijuma koji se brisu iz proredjeno.log
+
+
+
+tail /tmp/zmaudit.log
+ipak ne treba brisati prvu sliku jer nece da pusta stream. moze svaka druga...
+/var/cache/zoneminder/events/2/11/11/06/07/17/48
+Event-ispred21140
+kada se pusti fild, na lokalnom kompjuteru ostane kes
+videti da li brise ceo event ili ostavlja prepolovljeno?
+zmaudit ostavlja prepolovljeno.
+
+14.3.2012: snimak ostaje samo5 dana , tako da sam iskljucio razredi.sh
